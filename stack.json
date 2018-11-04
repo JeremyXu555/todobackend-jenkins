@@ -128,7 +128,7 @@
         "ContainerDefinitions" : [
           {
             "Name": "jenkins",
-            "Image": "jeremyxu666/jenkins:ecs",
+            "Image": "jeremyxu666/jenkins",
             "Memory": 995,
             "PortMappings": [ { "ContainerPort": 8080, "HostPort": 8080 } ],
             "MountPoints": [
